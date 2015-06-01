@@ -1,0 +1,122 @@
+body { background-color: #365f7a;
+       color: #330000;
+       font-family: Verdana,Arial, sans-serif;
+}
+
+#wrapper { margin-left: auto;
+             margin-right: auto;
+             width: 800px;  
+			 	background-color: #FFCC99;
+			 -webkit-box-shadow: 5px 5px 5px #000000;
+			 -moz-box-shadow: 5px 5px 5px #000000;
+			 box-shadow: 5px 5px 5px #000000;
+}  
+
+#header { margin: 0;}
+
+#nav { text-align: left;
+	float: left;
+	font-size: .95em;
+	width: 120px;
+	background-color: #FFCC99;
+}
+
+#nav ul { list-style-type: none; 
+	padding: 5px;
+	margin: 0;
+}
+
+#nav a {text-decoration: none;
+	 display: block;
+	 padding: 5px 0px 5px 10px;   
+	 border-bottom: 1px solid #ff9900;}
+	
+#nav a:link{ color: #336688; }
+#nav a:visited { color: #7780cc; }
+#nav a:hover { color: #330000; 
+	background-color: #ffeedd;
+}
+
+#content { padding: 10px 20px 30px 20px; 
+	margin-left: 120px;
+	background-color: #ffeedd;
+	color: #2F2F4F;
+}	  
+
+#content a:link{ color: #336688;}
+#content a:visited { color: #7780cc;}
+#content a:hover { color: #2F2F4F;  }
+
+img { border-style: none;}
+
+.floatright { float: right;
+	padding: 20px;
+}
+.clear { clear: both;}
+
+.caption { font-size: 0.8em;
+	font-style: italic;
+	text-align: center;
+	}
+
+#footer { background-color: #FF9933;
+          color: #000000; 
+          font-size: .80em;
+          text-align: center;
+		  padding: 10px 50px 10px 50px;
+		 clear: left;
+}
+
+#footer a:link{ color: #ffffcc;}
+#footer a:visited { color: #ffffcc;}
+#footer a:hover { color: #330000;  }
+
+h1 { font-size: 1.2em;}
+h2 { font-size: 1.1em;}
+h3 {font-size: 1em;}
+
+table { border-collapse:collapse;}
+
+#gallery table, th, td { border: 1px solid #FF9933;
+}
+
+#gallery td{ text-align: left;
+	width: 150px;
+	vertical-align:top;
+	padding: 5px;
+	font-size: 0.95em;
+}
+
+#events table, th, td { border: 1px solid #FF9933;
+}
+
+#events th { font-weight: bold;
+	vertical-align: top;
+	text-align: center;
+	 background-color: #FFCC99;
+}
+
+#events td { text-align: left;
+	min-width: 150px;
+	vertical-align:top;
+	padding: 5px;
+	font-size: 0.95em;
+}
+
+.altrow { background-color: #FFEEAA;
+}
+
+#formtable table, th, td { border: none;}
+
+#formtable th {font-weight: bold;
+	vertical-align: top;
+	text-align: right;
+}
+
+
+#formtable td { text-align: left;
+	min-width: 150px;
+	vertical-align:top;
+	padding: 5px;
+	font-size: 0.95em;
+}
